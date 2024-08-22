@@ -8,8 +8,9 @@ permalink: /installation/
 
 
 # Easy open.mp Server Installation
-# (All Debian based Linux)
-
+{: .no_toc }
+>(All Debian based Linux)
+{: .no_toc }
 
 
 {: .warning }
