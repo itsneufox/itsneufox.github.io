@@ -4,19 +4,19 @@ layout: home
 nav_order: 1
 ---
 
-# Hi there, I'm João 'itsneufox' Lopes! ??
+# Hi there, I'm JoÃ£o 'itsneufox' Lopes! ðŸ‘‹
 
-Welcome to my personal website! I’m a developer who loves to code, explore new technologies, and contribute to the gaming community. Here's a bit more about me and what I do.
+Welcome to my personal website! Iâ€™m a developer who loves to code, explore new technologies, and contribute to the gaming community. Here's a bit more about me and what I do.
 
 ## About Me
 
-- ?? **Passionate about Coding and Technology**: From writing scripts to managing servers, I’m always excited to dive into new challenges.
-- ?? **Programming in PAWN for SA-MP and open.mp**: I enjoy building and optimizing game servers, especially in the world of multiplayer gaming with SA-MP and open.mp.
-- ?? **Always Learning**: Technology is ever-evolving, and I’m committed to growing my skills and exploring new horizons in the tech world.
+- ðŸŒŸ **Passionate about Coding and Technology**: From writing scripts to managing servers, Iâ€™m always excited to dive into new challenges.
+- ðŸ’» **Programming in PAWN for SA-MP and open.mp**: I enjoy building and optimizing game servers, especially in the world of multiplayer gaming with SA-MP and open.mp.
+- ðŸŒ± **Always Learning**: Technology is ever-evolving, and Iâ€™m committed to growing my skills and exploring new horizons in the tech world.
 
 ## Projects
 
-I’m actively involved in the following key projects:
+Iâ€™m actively involved in the following key projects:
 
 - **Brasil Truck n'Trailers**: A trucking server that provides an immersive multiplayer experience for players passionate about trucking and logistics. This project is my pride and joy.
   
@@ -26,7 +26,7 @@ In addition to these projects, I also contribute to various open-source projects
 
 ## My Interests
 
-I’m passionate about:
+Iâ€™m passionate about:
 - **Game Development**: Crafting multiplayer experiences that are both engaging and technically sound.
 - **Linux and Server Management**: Running efficient, secure servers for games and web applications.
 - **Open Source**: Contributing to and learning from the open-source community.
@@ -37,7 +37,7 @@ Feel free to reach out to me if you want to collaborate, discuss a project, or j
 
 - [GitHub](https://github.com/itsneufox)
 
-Thank you for stopping by! Explore my site, check out my projects, and let’s connect!
+Thank you for stopping by! Explore my site, check out my projects, and letâ€™s connect!
 
 ---
 *This site is powered by Jekyll and the Just the Docs theme, and hosted on GitHub Pages.*
