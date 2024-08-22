@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Easy open.mp Server Installation
+title: open.mp Server Deploy
 nav_order: 2
 description: "Guide for installing an open.mp server on Debian-based Linux."
 permalink: /installation/
 ---
 
-<a href="https://www.open.mp"><img src="https://raw.githubusercontent.com/adib-yg/openmp-server-installation/main/screenshots/open-mp-logo.png" width="128" height="128" align="left"></a>
 
 # Easy open.mp Server Installation (All Debian based Linux)
-{: .no_toc }
 
-> [!NOTE]
-> *If you are using the SA:MP server and didn't convert to open.mp yet, [please stop here and read this guide](https://github.com/adib-yg/openmp-server-installation)!*
 
-> [!NOTE]
-> *If you are using the FCNPC plugin, please stop for now because this plugin does not work for open.mp currently.<br>
-> But not for long! [You can help with a donation here on the Open Collective!](https://opencollective.com/openmultiplayer)*
+
+{: .warning }
+*If you are using the SA:MP server and didn't convert to open.mp yet, [please stop here and read this guide](https://github.com/adib-yg/openmp-server-installation)!*
+
+{: .warning }
+*If you are using the FCNPC plugin, please stop for now because this plugin does not work for open.mp currently.<br>
+But not for long! [You can help with a donation here on the Open Collective!](https://opencollective.com/openmultiplayer)*
 
 ## Introduction
 
@@ -36,14 +36,14 @@ Before starting this guide, you should have:
 - Filezilla or WinSCP for file transfers;
 - PuTTY or your hosting SSH solution;
 
-> [!NOTE]
-> *If you install WinSCP, the installer will prompt you to install PuTTY! It's up to you if you want to install it or not, but you can always download it later!*
+{: .important }
+>*If you install WinSCP, the installer will prompt you to install PuTTY! It's up to you if you want to install it or not, but you can always download it later!*
 
 ## Part A - Connect, update, and create user
 
 ### Step 1 - Open PuTTY or your hosting SSH solution and connect to your instance
-> [!NOTE]
-> *There are comprehensive guides on the web or even your hosting solution website on how to connect via PuTTY. Some SSH connections need a key, so I can't provide any help here, but feel free to ask on open.mp Discord or search the web!*
+{: .important }
+>*There are comprehensive guides on the web or even your hosting solution website on how to connect via PuTTY. Some SSH connections need a key, so I can't provide any help here, but feel free to ask on open.mp Discord or search the web!*
 
 ### Step 2 - Updating your Linux instance
 
@@ -58,8 +58,8 @@ sudo apt upgrade
 
 For security reasons, it's best practice to create a new user specifically for running the server:
 
-> [!NOTE]
-> *Change `MyUserName` to a username of your choice!*
+{: .important }
+>*Change `MyUserName` to a username of your choice!*
 
 ```bash
 sudo adduser MyUserName
@@ -93,8 +93,8 @@ Use **wget** to download the files from the open.mp repository:
 wget https://github.com/openmultiplayer/open.mp/releases/download/v1.2.0.2670/open.mp-linux-x86.tar.gz
 ```
 
-> [!NOTE]
-> *In this guide, we are downloading the static version! Check the latest version marked with a green tag saying "Latest" [here](https://github.com/openmultiplayer/open.mp/releases), then right-click the intended file and copy the link!*
+{: .important }
+>*In this guide, we are downloading the static version! Check the latest version marked with a green tag saying "Latest" [here](https://github.com/openmultiplayer/open.mp/releases), then right-click the intended file and copy the link!*
 
 Extract the downloaded files:
 
@@ -112,8 +112,8 @@ cd Server
 
 - [Go here](https://github.com/openmultiplayer/open.mp/releases) and check the release marked with a green tag saying "Latest".
 - Download the file called `open.mp-linux-x86.tar.gz`.
-> [!NOTE]
-> *In this guide, we are downloading the static version!*
+{: .warning }
+>*In this guide, we are downloading the static version!*
 - Use 7zip or your zip manager of choice and unzip the downloaded file.
 - Open Filezilla or WinSCP and drop the folder `Server` inside the folder of the user you created in **Part A**.
 
@@ -121,11 +121,11 @@ cd Server
 
 ### Step 6 - Install x86 files
 
-> [!NOTE]
-> *If you used the noob-proof way, come back to PuTTY or your hosting SSH solution and navigate to your server folder using:*
-> ```bash
-> cd Server
-> ```
+{: .important }
+>*If you used the noob-proof way, come back to PuTTY or your hosting SSH solution and navigate to your server folder using:*
+```bash
+cd Server
+```
 
 We have to update `apt`:
 
@@ -147,8 +147,8 @@ sudo apt install libc6:i386
 
 ### Step 7 - Starting up the server
 
-> [!NOTE]
-> *This is only needed once. After that, you can skip to starting up without using `chmod`!*
+{: .important }
+>*This is only needed once. After that, you can skip to starting up without using `chmod`!*
 
 Make the `omp-server` executable:
 
@@ -171,8 +171,8 @@ MyUserName@ip-123-45-67-89:/home/MyUserName$ nohup: ignoring input and appending
 
 Write down the number the terminal gave you and you can close the terminal!
 
-> [!NOTE]
-> *If you forgot to write down the number, you can retrieve it using the `top` command in Step 8.*
+{: .important }
+*If you forgot to write down the number, you can retrieve it using the `top` command in Step 8.*
 
 ### Step 8 - Closing the server
 
@@ -182,8 +182,8 @@ If you wrote down the number in step 7, just do:
 sudo kill MyNumberHere
 ```
 
-> [!NOTE]
-> *Change `MyNumberHere` to the intended number!*
+{: .important }
+>*Change `MyNumberHere` to the intended number!*
 
 If you forgot to copy the number:
 
@@ -207,8 +207,8 @@ sudo kill MyNumberHere
 
 Visit [this guide](https://github.com/adib-yg/openmp-server-installation) to understand how to transfer your files from your server to your Linux instance.
 
-> [!NOTE]
-> *Don't forget that Linux can't read `.dll` files, always download the `.so` counterparts!*
+{: .important }
+>*Don't forget that Linux can't read `.dll` files, always download the `.so` counterparts!*
 
 ## Help
 
