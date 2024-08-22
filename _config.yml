@@ -1,55 +1,58 @@
+# Site settings
 title: itsneufox
 description: My personal website
 theme: just-the-docs
 
+# URL settings
 url: "https://itsneufox.github.io"
 
-aux_links:
-  #Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
+# Repository settings
 repository: itsneufox/itsneufox.github.io
 
+# Logo
 logo: "/assets/images/logo-coloured.png"
 
-# Enable or disable the site search
-# Supports true (default) or false
+# Search settings
 search_enabled: true
 
 search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
   heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
   previews: 3
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
   preview_words_before: 5
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
   preview_words_after: 10
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
   tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
   rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
   button: false
-  # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
   focus_shortcut_key: 'k'
 
-# Enable or disable the side/mobile menu globally
-# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+# Navigation settings
 nav_enabled: true
 
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
+# Heading anchor links
 heading_anchors: true
 
-# Color scheme supports "light" (default) and "dark"
+# Color scheme
 color_scheme: dark
+
+# Auxiliary links
+aux_links:
+  Template Repository: 
+    url: https://github.com/just-the-docs/just-the-docs-template
+    icon: fa-solid fa-code-branch
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins (optional)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files and directories from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
