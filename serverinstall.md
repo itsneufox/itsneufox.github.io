@@ -8,7 +8,7 @@ permalink: /installation/
 
 
 # Easy open.mp Server Installation
-#(All Debian based Linux)
+# (All Debian based Linux)
 
 
 
