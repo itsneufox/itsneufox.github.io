@@ -1,35 +1,43 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] â€“ the [README] file explains how to do that, along with other details.
+# Hi there, I'm João 'itsneufox' Lopes! ??
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Welcome to my personal website! I’m a developer who loves to code, explore new technologies, and contribute to the gaming community. Here's a bit more about me and what I do.
 
-More specifically, the created site:
+## About Me
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+- ?? **Passionate about Coding and Technology**: From writing scripts to managing servers, I’m always excited to dive into new challenges.
+- ?? **Programming in PAWN for SA-MP and open.mp**: I enjoy building and optimizing game servers, especially in the world of multiplayer gaming with SA-MP and open.mp.
+- ?? **Always Learning**: Technology is ever-evolving, and I’m committed to growing my skills and exploring new horizons in the tech world.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## Projects
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+I’m actively involved in the following key projects:
 
-To get started with creating a site, simply:
+- **Brasil Truck n'Trailers**: A trucking server that provides an immersive multiplayer experience for players passionate about trucking and logistics. This project is my pride and joy.
+  
+- **OpenTrucking**: An open-source gamemode designed for open.mp, built with the best practices in mind. This project aims to serve as a foundation for others looking to create high-quality, optimized open.mp servers.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+In addition to these projects, I also contribute to various open-source projects.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+## My Interests
 
-----
+I’m passionate about:
+- **Game Development**: Crafting multiplayer experiences that are both engaging and technically sound.
+- **Linux and Server Management**: Running efficient, secure servers for games and web applications.
+- **Open Source**: Contributing to and learning from the open-source community.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## Get in Touch
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+Feel free to reach out to me if you want to collaborate, discuss a project, or just talk about technology. You can find me on:
+
+- [GitHub](https://github.com/itsneufox)
+
+Thank you for stopping by! Explore my site, check out my projects, and let’s connect!
+
+---
+*This site is powered by Jekyll and the Just the Docs theme, and hosted on GitHub Pages.*
