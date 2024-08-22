@@ -12,7 +12,7 @@ repository: itsneufox/itsneufox.github.io
 permalink: pretty
 
 # Logo
-logo: "/assets/images/logo-coloured.png"
+logo: "/assets/images/logo.png"
 
 # Search settings
 search_enabled: true
