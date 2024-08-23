@@ -57,7 +57,7 @@ To enable file transfers via Filezilla or WinSCP, you need to grant the root use
 chmod 775 /home/MyUserName
 ```
 
-{: .highlight }
+{: .highlight } 
 > **Explanation:**  
 > This command ensures that both the root user and your new user can read, write, and execute files in the specified directory. This is important for managing server files using Filezilla or WinSCP.
 

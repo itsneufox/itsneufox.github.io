@@ -45,7 +45,7 @@ If you prefer using a graphical interface to download and extract the files, fol
 3. Use 7zip or your preferred archive manager to unzip the downloaded file.
 4. Open **Filezilla** or **WinSCP** and upload the `Server` folder to the user directory you created in [**Part A**](./part-a.md).
 
-{: .highlight }
+{: .highlight } 
 > **Tip:** The noob-proof method might take a bit longer because you need to upload the files to the host.
 
 [Previous: Connect, Update, and Create User](/openmp-server-deploy/part-a) | [Next: Part C - Finishing Up and Starting the Server](/openmp-server-deploy/part-c)

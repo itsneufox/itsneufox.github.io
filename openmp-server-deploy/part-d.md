@@ -24,7 +24,7 @@ If you run into any issues while uploading files or managing your server, don't 
 
 You can also use the [#openmp-support](https://discord.com/channels/231799104731217931/966398440051445790) channel in Discord for specific questions or troubleshooting.
 
-## Final Words
+## Final Words 
 
 Thank you for following this guide to set up your open.mp server! If you notice anything missing or incorrect in this guide, please feel free to reach out to me, **@itsneufox**, on the [official open.mp Discord server](https://discord.gg/samp).
 

@@ -36,6 +36,7 @@ nav:
     url: "/"
   - title: "open.mp Server Deploy"
     url: "/openmp-server-deploy/introduction/"
+    nav_order: 2
     children:
       - title: "Introduction"
         url: "/openmp-server-deploy/introduction/"
@@ -47,6 +48,8 @@ nav:
         url: "/openmp-server-deploy/part-c/"
       - title: "Uploading Your Own Gamemode and Files"
         url: "/openmp-server-deploy/part-d/"
+
+
 
 # Code settings
 enable_copy_code_button: true

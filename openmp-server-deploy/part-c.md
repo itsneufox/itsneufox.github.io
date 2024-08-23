@@ -51,7 +51,7 @@ Now it's time to start your open.mp server for the first time.
 
 3. The terminal should output something like this:
     ```
-    [1] MyNumberHere
+    [1] MyNumberHere 
     MyUserName@ip-123-45-67-89:/home/MyUserName$ nohup: ignoring input and appending output to 'nohup.out'
     ```
 
