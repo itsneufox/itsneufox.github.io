@@ -11,21 +11,25 @@ search_exclude: true
     text-align: center;
     margin-top: 50px;
   }
-  }
-  .btn-home {
+
+  .btn-gohome {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 18px;
     background-color: #007bff;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
-  .btn-home:hover {
+
+  .btn-gohome:hover {
     background-color: #0056b3;
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
   }
+
   .couch-img {
     max-width: 100%;
     height: auto;
@@ -36,7 +40,6 @@ search_exclude: true
 <div class="center">
   <img src="{{ '/assets/images/couch.png' | relative_url }}" alt="Looking under the couch" class="couch-img">
   <h1>Oops! Page not found.</h1>
-  <p>"Nope, not under here either! Looks like this page has gone MIA. Want to try the homepage?"</p>
+  <p>"Nope, not under here either! Looks like this page has gone MIA."</p>
+  <a href="/openmp-server-deploy/part-c" class="btn-gohome">Take me home</a>
 </div>
-
-[Previous Page](/openmp-server-deploy/part-c){: .btn .btn-blue .v-align-middle .py-6}

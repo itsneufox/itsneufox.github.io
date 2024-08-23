@@ -29,4 +29,6 @@ Continue through the guide by following the buttons on the bottom or using the t
 
 
 
-[Next Page](/openmp-server-deploy/introduction){: .btn .btn-green .float-right .py-6}
+[Next Page](/openmp-server-deploy/introduction){: .btn .btn-green .float-right}
+<br>
+<br>
