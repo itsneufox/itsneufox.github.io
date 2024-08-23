@@ -91,6 +91,8 @@ If you need to stop the server, you'll use the PID that was given to you when yo
 
 {: .highlight }
 > **Tip**: You only need to use `chmod +x` once to make the server executable. After that, you can start it directly with `nohup ./omp-server &`.
+
+<br>
 <br>
 [Previous Page](/openmp-server-deploy/part-b){: .btn .btn-blue .float-left}
 [Next Page](/openmp-server-deploy/part-d){: .btn .btn-green .float-right}

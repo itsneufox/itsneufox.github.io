@@ -31,6 +31,8 @@ Thank you for following this guide to set up your open.mp server! If you notice 
 ### Special Thanks
 
 A big thank you to the open.mp team for their incredible work and dedication to keeping this community alive!
+
+<br>
 <br>
 [Previous Page](/openmp-server-deploy/part-c){: .btn .btn-blue .float-left}
 <br>
