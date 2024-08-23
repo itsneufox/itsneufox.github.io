@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Part B - Download and Install the Server Files
+title: Download and Install the Server Files
 parent: open.mp Server Deploy
 nav_order: 3
 ---

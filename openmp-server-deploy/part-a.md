@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Part A - Connect, Update, and Create User
+title: Connect, Update, and Create User
 parent: open.mp Server Deploy
 nav_order: 2
 ---
