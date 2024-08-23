@@ -1,5 +1,7 @@
 .side-bar {
-  @include mq(lg) {
-    width: calc((70% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
-  }
+  width: /* your static width */;
+  background-image: url('/assets/images/sidebar-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
