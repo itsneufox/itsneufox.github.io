@@ -5,7 +5,7 @@ parent: open.mp Server Deploy
 nav_order: 5
 ---
 
-# Part D - Uploading Your Own Gamemode and Files
+# Uploading Your Own Gamemode and Files
 
 Once your server is up and running, the next step is to upload your own gamemode and any necessary files. This section will guide you through transferring files to your server and highlight important considerations for Linux compatibility.
 
@@ -32,4 +32,4 @@ Thank you for following this guide to set up your open.mp server! If you notice 
 
 A big thank you to the open.mp team for their incredible work and dedication to keeping this community alive!
 
-[Previous: Finishing Up and Starting the Server](/openmp-server-deploy/part-c)
+<div align="center">[Previous: Finishing Up and Starting the Server](/openmp-server-deploy/part-c){: .btn .btn-blue .mr-4 }</div>

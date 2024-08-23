@@ -4,22 +4,9 @@ title: Introduction
 parent: open.mp Server Deploy
 nav_order: 1
 ---
-
-# Easy open.mp Server Installation
-{: .no_toc }
-{: .note }
-> (For all Debian-based Linux distributions)
-
-{: .important }
-> If you're currently using the SA:MP server and haven't transitioned to open.mp, [please stop here and read this guide first](https://github.com/adib-yg/openmp-server-installation)!
-
-{: .important }
-> The FCNPC plugin is not yet compatible with open.mp. If you rely on FCNPC, please hold off on deploying open.mp for now.  
-> However, your support can help speed up development! [Consider donating via Open Collective](https://opencollective.com/openmultiplayer).
-
 ## Introduction
 
-Welcome to the **open.mp Server Installation Guide**! This guide is designed to help you set up an open.mp server on Debian-based Linux systems, including Ubuntu. Whether you're just starting or need a refresher, this step-by-step guide will assist you in deploying your server successfully.
+This guide is designed to help you set up an open.mp server on Debian-based Linux systems, including Ubuntu. Whether you're just starting or need a refresher, this step-by-step guide will assist you in deploying your server successfully.
 
 This guide is structured to take you from the initial server setup to configuring and launching your open.mp server. You'll find everything you need, including commands, tips, and best practices.
 
@@ -56,4 +43,5 @@ By the end of this guide, you’ll have your open.mp server up and running, read
 
 Ready to get started? Head over to the next section to begin the installation process!
 
-[Next: Part A - Connect, Update, and Create User](./part-a.md)
+
+<div align="center">[Previous: Guide Homepage](/server-deploy/){: .btn .btn-blue .mr-4 }[Next: Connect, Update, and Create User](/openmp-server-deploy/part-a){: .btn .btn-blue .mr-4}</div>

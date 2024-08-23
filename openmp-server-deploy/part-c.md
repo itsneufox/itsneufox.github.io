@@ -5,7 +5,7 @@ parent: open.mp Server Deploy
 nav_order: 4
 ---
 
-# Part C - Finishing Up and Starting the Server
+# Finishing Up and Starting the Server
 
 In this part, you'll complete the installation by enabling 32-bit package support, making the server executable, and starting it up.
 
@@ -92,4 +92,4 @@ If you need to stop the server, you'll use the PID that was given to you when yo
 {: .highlight }
 > **Tip**: You only need to use `chmod +x` once to make the server executable. After that, you can start it directly with `nohup ./omp-server &`.
 
-[Previous: Download and Install the Server Files](/openmp-server-deploy/part-b) | [Next: Part D - Uploading Your Own Gamemode and Files](/openmp-server-deploy/part-d)
+<div align="center">[Previous: Download and Install the Server Files](/openmp-server-deploy/part-b){: .btn .btn-blue .mr-4 }[Next: Part D - Uploading Your Own Gamemode and Files](/openmp-server-deploy/part-d){: .btn .btn-blue .mr-4 }</div>

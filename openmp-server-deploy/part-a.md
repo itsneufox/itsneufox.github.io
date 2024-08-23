@@ -5,7 +5,7 @@ parent: open.mp Server Deploy
 nav_order: 2
 ---
 
-# Part A - Connect, Update, and Create User
+# Connect, Update, and Create User
 
 In this part, you'll learn how to connect to your server, update your Linux instance, and create a new user account for running the server securely.
 
@@ -61,4 +61,5 @@ chmod 775 /home/MyUserName
 > **Explanation:**  
 > This command ensures that both the root user and your new user can read, write, and execute files in the specified directory. This is important for managing server files using Filezilla or WinSCP.
 
-[Previous: Introduction](/openmp-server-deploy/introduction.md) | [Next: Download and Install the Server Files](/openmp-server-deploy/part-b)
+<div align="center">[Previous: Introduction](/openmp-server-deploy/introduction.md){: .btn .btn-blue .mr-4 }[Next: Download and Install the Server Files](/openmp-server-deploy/part-b){: .btn .btn-blue .mr-4 }</div>
+
