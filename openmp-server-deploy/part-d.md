@@ -32,4 +32,4 @@ Thank you for following this guide to set up your open.mp server! If you notice 
 
 A big thank you to the open.mp team for their incredible work and dedication to keeping this community alive!
 
-[Previous: Part C - Finishing Up and Starting the Server](./part-c.md)
+[Previous: Finishing Up and Starting the Server](/openmp-server-deploy/part-c)
