@@ -28,4 +28,7 @@ Welcome to the **open.mp Server Installation Guide**! This guide will walk you t
 Continue through the guide by following the buttons on the bottom or using the table of contents above.
 
 
-[Next](/openmp-server-deploy/introduction){: .btn .btn-blue .float-right .mb-lg-4 .mt-6}
+
+[Next Page](/openmp-server-deploy/introduction){: .btn .btn-blue .float-right .mb-lg-4 .mt-6}
+
+

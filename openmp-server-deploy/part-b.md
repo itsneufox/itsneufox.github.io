@@ -49,6 +49,8 @@ If you prefer using a graphical interface to download and extract the files, fol
 > **Tip:** The noob-proof method might take a bit longer because you need to upload the files to the host.
 
 
-[Previous](/openmp-server-deploy/part-a){: .btn .btn-blue .float-left .mb-lg-4}
-[Next](/openmp-server-deploy/part-c){: .btn .btn-blue .float-right .mb-lg-4}
+
+[Previous Page](/openmp-server-deploy/part-a){: .btn .btn-blue .float-left .mb-lg-4 .mt-6}
+[Next Page](/openmp-server-deploy/part-c){: .btn .btn-blue .float-right .mb-lg-4 .mt-6}
+
 
