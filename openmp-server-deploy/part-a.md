@@ -13,7 +13,8 @@ In this part, you'll learn how to connect to your server, update your Linux inst
 
 To start, connect to your server using PuTTY or any SSH client supported by your hosting provider.
 
-{: .note }
+{: .note-title }
+>
 > **Need help connecting?**  
 > Check your hosting provider's documentation or search for guides on connecting via SSH using PuTTY or similar clients.  
 > **Note:** Some SSH connections may require a key file.
@@ -62,6 +63,6 @@ chmod 775 /home/MyUserName
 > This command ensures that both the root user and your new user can read, write, and execute files in the specified directory. This is important for managing server files using Filezilla or WinSCP.
 
 
-[Previous: Introduction](/openmp-server-deploy/introduction.md){: .btn .btn-blue .mr-4 }
-[Next: Download and Install the Server Files](/openmp-server-deploy/part-b){: .btn .btn-blue .mr-4 }
+[Previous](/openmp-server-deploy/introduction.md){: .btn .btn-blue .mr-4 }
+[Next](/openmp-server-deploy/part-b){: .btn .btn-blue .mr-4 }
 
