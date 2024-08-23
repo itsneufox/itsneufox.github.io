@@ -10,7 +10,7 @@ This guide is designed to help you set up an open.mp server on Debian-based Linu
 
 This guide is structured to take you from the initial server setup to configuring and launching your open.mp server. You'll find everything you need, including commands, tips, and best practices.
 
-{: .note }
+{: .note-title }
 > **What You Will Learn**  
 > - How to connect to your server using SSH.
 > - How to update your system and set up a user account for running the server.  
@@ -35,11 +35,7 @@ Before you begin, make sure you have:
 
 By the end of this guide, you’ll have your open.mp server up and running, ready for customization and gameplay.
 
-## Table of Contents
-{: .no_toc }
 
-1. TOC
-{:toc}
 
 Ready to get started? Head over to the next section to begin the installation process!
 

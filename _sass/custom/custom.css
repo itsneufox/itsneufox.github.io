@@ -1,0 +1,11 @@
+.side-bar {
+  @include mq(lg) {
+    width: calc((70% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+  }
+
+  /* Add background image */
+  background-image: url('/assets/images/sidebar-background.png'); /* Replace with the correct path to your image */
+  background-size: cover; /* Ensure the image covers the entire sidebar */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-position: center; /* Center the image */
+}

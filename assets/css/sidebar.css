@@ -1,8 +1,0 @@
-/* Apply background image to the sidebar */
-.sidebar {
-  background-image: url('/assets/images/sidebar-background.png');
-  background-size: cover; /* Make the image cover the entire sidebar */
-  background-repeat: no-repeat; /* Prevent repeating */
-  background-position: center; /* Center the image */
-  color: white; /* Optional: Adjust the text color to suit the background */
-}
