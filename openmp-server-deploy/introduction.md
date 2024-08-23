@@ -38,9 +38,7 @@ By the end of this guide, you’ll have your open.mp server up and running, read
 
 
 Ready to get started? Head over to the next section to begin the installation process!
-
-
-
+<br>
 [Previous Page](/server-deploy/){: .btn .btn-blue .float-left}
 [Next Page](/openmp-server-deploy/part-a){: .btn .btn-green .float-right}
 <br>

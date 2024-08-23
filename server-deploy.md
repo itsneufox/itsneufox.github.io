@@ -26,9 +26,7 @@ Welcome to the **open.mp Server Installation Guide**! This guide will walk you t
 5. [Uploading Your Own Gamemode and Files](/openmp-server-deploy/part-d)
 
 Continue through the guide by following the buttons on the bottom or using the table of contents above.
-
-
-
+<br>
 [Next Page](/openmp-server-deploy/introduction){: .btn .btn-green .float-right}
 <br>
 <br>

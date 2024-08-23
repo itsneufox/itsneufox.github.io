@@ -61,9 +61,7 @@ chmod 775 /home/MyUserName
 {: .highlight } 
 > **Explanation:**  
 > This command ensures that both the root user and your new user can read, write, and execute files in the specified directory. This is important for managing server files using Filezilla or WinSCP.
-
-
-
+<br>
 [Previous Page](/openmp-server-deploy/introduction){: .btn .btn-blue .float-left}
 [Next Page](/openmp-server-deploy/part-b){: .btn .btn-green .float-right}
 <br>

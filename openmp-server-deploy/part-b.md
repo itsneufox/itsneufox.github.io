@@ -47,9 +47,7 @@ If you prefer using a graphical interface to download and extract the files, fol
 
 {: .highlight } 
 > **Tip:** The noob-proof method might take a bit longer because you need to upload the files to the host.
-
-
-
+<br>
 [Previous Page](/openmp-server-deploy/part-a){: .btn .btn-blue .float-left}
 [Next Page](/openmp-server-deploy/part-c){: .btn .btn-green .float-right}
 <br>
