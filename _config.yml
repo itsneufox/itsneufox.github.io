@@ -30,21 +30,23 @@ nav_enabled: true
 nav_sort: case_sensitive
 nav_error_report: true
 
-# Navigation for open.mp guide
-primary_navigation:
-  - name: open.mp Server Deploy
-    link: /openmp-server-deploy/introduction/
+# Define navigation for the open.mp Server Deploy guide
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "open.mp Server Deploy"
+    url: "/openmp-server-deploy/introduction/"
     children:
-      - name: Introduction
-        link: /openmp-server-deploy/introduction/
-      - name: Connect, Update, and Create User
-        link: /openmp-server-deploy/part-a/
-      - name: Download and Install Server Files
-        link: /openmp-server-deploy/part-b/
-      - name: Finishing Up and Starting the Server
-        link: /openmp-server-deploy/part-c/
-      - name: Uploading Your Own Gamemode and Files
-        link: /openmp-server-deploy/part-d/
+      - title: "Introduction"
+        url: "/openmp-server-deploy/introduction/"
+      - title: "Connect, Update, and Create User"
+        url: "/openmp-server-deploy/part-a/"
+      - title: "Download and Install the Server Files"
+        url: "/openmp-server-deploy/part-b/"
+      - title: "Finishing Up and Starting the Server"
+        url: "/openmp-server-deploy/part-c/"
+      - title: "Uploading Your Own Gamemode and Files"
+        url: "/openmp-server-deploy/part-d/"
 
 # Code settings
 enable_copy_code_button: true
