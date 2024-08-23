@@ -81,6 +81,10 @@ exclude:
   - node_modules
   - vendor
 
+# Footer settings
+back_to_top: true
+back_to_top_text: "Go back to top"
+
 # Callouts settings
 callouts_level: quiet
 callouts:
