@@ -20,8 +20,11 @@ If you're comfortable with terminal commands, follow these steps to download and
    wget https://github.com/openmultiplayer/open.mp/releases/download/v1.2.0.2670/open.mp-linux-x86.tar.gz
    ```
 
-   {: .important }
-   > **Note:** In this guide, we are downloading the static version. Be sure to check the [latest release](https://github.com/openmultiplayer/open.mp/releases) and right-click the intended file to copy the link.
+   {: .important-title }
+   > **Note** 
+   >
+   > In this guide, we are downloading the static version.
+   >Be sure to check the [latest release](https://github.com/openmultiplayer/open.mp/releases) and right-click the intended file to copy the link.
 
 2. Extract the downloaded files:
    ```bash
@@ -39,14 +42,17 @@ If you prefer using a graphical interface to download and extract the files, fol
 
 1. Go to the [open.mp releases page](https://github.com/openmultiplayer/open.mp/releases) and look for the release marked with a green "Latest" tag.
 2. Download the file named `open.mp-linux-x86.tar.gz`.
-   {: .warning }
-   > **Note:** We are downloading the static version in this guide. Make sure you select the correct file.
+   {: .highlight }
+   > **Note**
+   >We are downloading the static version in this guide. Make sure you select the correct file.
 
 3. Use 7zip or your preferred archive manager to unzip the downloaded file.
 4. Open **Filezilla** or **WinSCP** and upload the `Server` folder to the user directory you created in [**Connect, Update, and Create User**](/openmp-server-deploy/part-a).
 
-{: .highlight } 
-> **Tip:** The noob-proof method might take a bit longer because you need to upload the files to the host.
+{: .note-title }
+> **Tip** 
+>
+>The noob-proof method might take a bit longer because you need to upload the files to the host.
 
 <br>
 <br>

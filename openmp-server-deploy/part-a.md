@@ -14,10 +14,9 @@ In this part, you'll learn how to connect to your server, update your Linux inst
 To start, connect to your server using PuTTY or any SSH client supported by your hosting provider.
 
 {: .note-title }
->
 > **Need help connecting?**  
-> Check your hosting provider's documentation or search for guides on connecting via SSH using PuTTY or similar clients.  
-> **Note:** Some SSH connections may require a key file.
+>
+> Check your hosting provider's documentation or search for guides on connecting via SSH using PuTTY or similar clients.
 
 ## Step 2 - Update Your Linux Instance
 
@@ -28,8 +27,9 @@ sudo apt update
 sudo apt upgrade
 ```
 
-{: .important }
-> **Why update?**  
+{: .important-title }
+> **Why update?**
+>
 > Updating your system ensures that you have the latest security patches and software updates, which are crucial for keeping your server secure.
 
 ## Step 3 - Create a New User
@@ -40,14 +40,14 @@ For security reasons, it's best practice to avoid running your server as the roo
     ```bash
     sudo adduser MyUserName
     ```
-    {: .note }
-    > **Tip:** Replace `MyUserName` with a username of your choice. 
+    {: .highlight }
+    > Replace `MyUserName` with a username of your choice. 
 
 2. *Optional:* Grant the new user `sudo` privileges so they can perform administrative tasks if needed:
     ```bash
     sudo usermod -aG sudo MyUserName
     ```
-    {: .note }
+    {: .highlight }
     > Granting sudo access is optional, but it can be useful if the new user needs to perform system-level tasks in the future.
 
 ## Step 4 - Adjust Permissions for the New User
@@ -58,8 +58,9 @@ To enable file transfers via Filezilla or WinSCP, you need to grant the root use
 chmod 775 /home/MyUserName
 ```
 
-{: .highlight } 
-> **Explanation:**  
+{: .note-title }
+> **Explanation**
+>  
 > This command ensures that both the root user and your new user can read, write, and execute files in the specified directory. This is important for managing server files using Filezilla or WinSCP.
 
 <br>

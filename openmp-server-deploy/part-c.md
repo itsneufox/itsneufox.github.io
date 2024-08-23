@@ -28,8 +28,9 @@ If you're running a 64-bit system, you'll need to install support for 32-bit lib
     sudo apt install libc6:i386
     ```
 
-{: .important }
-> **If you used the noob-proof method**:  
+{: .important-title }
+> **If you used the noob-proof method**:
+>
 > Remember to reconnect to your server using PuTTY or your SSH solution, and navigate to your server folder:
 > ```bash
 > cd Server
@@ -57,8 +58,9 @@ Now it's time to start your open.mp server for the first time.
 
 4. Write down the number the terminal gave you (this is the process ID), and you can safely close the terminal.
 
-{: .note }
-> **Why the process ID matters**:  
+{: .note-title }
+> **Why the process ID matters?**:
+>
 > The process ID (PID) is essential if you need to stop the server later. If you forget to write it down, don’t worry! We’ll cover how to find it in the next step.
 
 ## Step 8 - Stopping the Server
@@ -69,7 +71,7 @@ If you need to stop the server, you'll use the PID that was given to you when yo
     ```bash
     sudo kill MyNumberHere
     ```
-    {: .important }
+    {: .highlight }
     > **Replace `MyNumberHere` with the actual PID.**
 
 2. If you forgot to write down the PID, you can find it using the `top` command:
@@ -89,8 +91,10 @@ If you need to stop the server, you'll use the PID that was given to you when yo
     sudo kill MyNumberHere
     ```
 
-{: .highlight }
-> **Tip**: You only need to use `chmod +x` once to make the server executable. After that, you can start it directly with `nohup ./omp-server &`.
+{: .note-title }
+> **Tip**
+>
+> You only need to use `chmod +x` once to make the server executable. After that, you can start it directly with `nohup ./omp-server &`.
 
 <br>
 <br>

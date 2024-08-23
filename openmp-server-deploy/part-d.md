@@ -13,8 +13,9 @@ Once your server is up and running, the next step is to upload your own gamemode
 
 To transfer your gamemode and other files from your local machine to your Linux server, follow the instructions in this [comprehensive guide](https://github.com/adib-yg/openmp-server-installation).
 
-{: .important }
-> **Important Reminder**  
+{: .important-title }
+> **Important Reminder**
+>
 > Linux servers cannot read `.dll` files, which are commonly used in Windows environments. Make sure to download and upload the `.so` counterparts for any plugins or libraries that your gamemode requires.
 > Ensure that your gamemode and related files are placed in the correct directories on the server to avoid any configuration issues.
 
