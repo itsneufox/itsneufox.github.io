@@ -85,16 +85,16 @@ exclude:
 callouts_level: quiet
 callouts:
   highlight:
-    color: yellow
+    color: yellowW
   important:
     title: Important
-    color: blue
+    color: blueW
   new:
     title: New
-    color: green
+    color: greenW
   note:
     title: Note
-    color: purple
+    color: purpleW
   warning:
     title: Warning
-    color: red
+    color: redW
