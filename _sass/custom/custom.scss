@@ -7,40 +7,7 @@
 
 .side-bar {
   background-image: url('/assets/images/sidebar-background.png');
-  background-size: cover; /* Make the image cover the entire sidebar */
-  background-repeat: no-repeat; /* Prevent repeating */
-  background-position: center; /* Center the image */
-  color: white; /* Optional: Adjust the text color to suit the background */
-}
-
-.center-buttons {
-  text-align: center;
-  margin-top: 10px; /* Optional: Add space above the buttons */
-}
-
-.center-text {
-  text-align: center;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.btn-blue {
-  background-color: #007bff;
-  color: white;
-}
-
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.btn:hover {
-  background-color: #0056b3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
