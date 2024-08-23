@@ -59,7 +59,7 @@ Now it's time to start your open.mp server for the first time.
 
 {: .note }
 > **Why the process ID matters**:  
-> The process ID (PID) is essential if you need to stop the server later. If you forget to write it down, don’t worry! We’ll cover how to find it in the next step.
+> The process ID (PID) is essential if you need to stop the server later. If you forget to write it down, donâ€™t worry! Weâ€™ll cover how to find it in the next step.
 
 ## Step 8 - Stopping the Server
 

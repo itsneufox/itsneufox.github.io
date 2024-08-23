@@ -34,7 +34,7 @@ This guide is structured to take you from the initial server setup to configurin
 {: .highlight }
 > **Who Is This Guide For?**  
 > - **New Users**: If you're new to server management, we'll walk you through each step, ensuring you understand the process.  
-> - **Experienced Users**: If you’re familiar with server management but new to open.mp, this guide will provide you with all the necessary steps to get started.
+> - **Experienced Users**: If youâ€™re familiar with server management but new to open.mp, this guide will provide you with all the necessary steps to get started.
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ Before you begin, make sure you have:
 {: .note }
 > **Tip**: If you install WinSCP, the installer may prompt you to install PuTTY. You can choose to install it immediately or download it later if needed.
 
-By the end of this guide, you’ll have your open.mp server up and running, ready for customization and gameplay.
+By the end of this guide, youâ€™ll have your open.mp server up and running, ready for customization and gameplay.
 
 ## Table of Contents
 {: .no_toc }
