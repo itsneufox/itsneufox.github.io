@@ -38,6 +38,3 @@ Feel free to reach out to me if you want to collaborate, discuss a project, or j
 - [GitHub](https://github.com/itsneufox)
 
 Thank you for stopping by! Explore my site, check out my projects, and let’s connect!
-
----
-*This site is powered by Jekyll and the Just the Docs theme, and hosted on GitHub Pages.*
