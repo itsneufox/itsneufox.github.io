@@ -4,7 +4,7 @@ title: Introduction
 parent: open.mp Server Deploy
 nav_order: 1
 ---
-## Introduction
+# Introduction
 
 This guide is designed to help you set up an open.mp server on Debian-based Linux systems, including Ubuntu. Whether you're just starting or need a refresher, this step-by-step guide will assist you in deploying your server successfully.
 
