@@ -15,7 +15,7 @@ In this part, you'll download and install the open.mp server files. There are tw
 
 If you're comfortable with terminal commands, follow these steps to download and extract the server files directly from the open.mp repository.
 
-1. Use `wget` to download the server files:
+1. Use `wget` to download the server files: 
    ```bash
    wget https://github.com/openmultiplayer/open.mp/releases/download/v1.2.0.2670/open.mp-linux-x86.tar.gz
    ```

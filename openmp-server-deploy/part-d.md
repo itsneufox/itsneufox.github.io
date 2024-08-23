@@ -9,7 +9,7 @@ nav_order: 5
 
 Once your server is up and running, the next step is to upload your own gamemode and any necessary files. This section will guide you through transferring files to your server and highlight important considerations for Linux compatibility.
 
-## Transferring Files to Your Server
+## Transferring Files to Your Server 
 
 To transfer your gamemode and other files from your local machine to your Linux server, follow the instructions in this [comprehensive guide](https://github.com/adib-yg/openmp-server-installation).
 

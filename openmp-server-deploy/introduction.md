@@ -25,7 +25,7 @@ This guide is structured to take you from the initial server setup to configurin
 
 {: .note }
 > **What You Will Learn**  
-> - How to connect to your server using SSH.  
+> - How to connect to your server using SSH.
 > - How to update your system and set up a user account for running the server.  
 > - How to download and install the open.mp server files.  
 > - How to configure your server and get it running smoothly.  

@@ -37,13 +37,13 @@ primary_navigation:
     children:
       - name: Introduction
         link: /openmp-server-deploy/introduction/
-      - name: Part A - Connect, Update, and Create User
+      - name: Connect, Update, and Create User
         link: /openmp-server-deploy/part-a/
-      - name: Part B - Download and Install Server Files
+      - name: Download and Install Server Files
         link: /openmp-server-deploy/part-b/
-      - name: Part C - Finishing Up and Starting the Server
+      - name: Finishing Up and Starting the Server
         link: /openmp-server-deploy/part-c/
-      - name: Part D - Uploading Your Own Gamemode and Files
+      - name: Uploading Your Own Gamemode and Files
         link: /openmp-server-deploy/part-d/
 
 # Code settings

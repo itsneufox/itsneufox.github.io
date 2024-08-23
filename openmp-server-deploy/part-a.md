@@ -40,7 +40,7 @@ For security reasons, it's best practice to avoid running your server as the roo
     sudo adduser MyUserName
     ```
     {: .note }
-    > **Tip:** Replace `MyUserName` with a username of your choice.
+    > **Tip:** Replace `MyUserName` with a username of your choice. 
 
 2. *Optional:* Grant the new user `sudo` privileges so they can perform administrative tasks if needed:
     ```bash

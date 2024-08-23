@@ -18,7 +18,7 @@ If you're running a 64-bit system, you'll need to install support for 32-bit lib
     sudo apt update
     ```
 
-2. Enable support for 32-bit architecture:
+2. Enable support for 32-bit architecture: 
     ```bash
     sudo dpkg --add-architecture i386
     ```
