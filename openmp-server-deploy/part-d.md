@@ -34,6 +34,6 @@ A big thank you to the open.mp team for their incredible work and dedication to 
 
 
 
-[Previous Page](/openmp-server-deploy/part-c){: .btn .btn-blue .float-left .mb-lg-4 .mt-6}
-
-
+[Previous Page](/openmp-server-deploy/part-c){: .btn .btn-blue .float-left .py-6}
+<br>
+<br>

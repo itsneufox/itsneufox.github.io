@@ -94,7 +94,5 @@ If you need to stop the server, you'll use the PID that was given to you when yo
 
 
 
-[Previous Page](/openmp-server-deploy/part-b){: .btn .btn-blue .float-left .mb-lg-4 .mt-6}
-[Next Page](/openmp-server-deploy/part-d){: .btn .btn-blue .float-right .mb-lg-4 .mt-6}
-
-
+[Previous Page](/openmp-server-deploy/part-b){: .btn .btn-blue .float-left .py-6}
+[Next Page](/openmp-server-deploy/part-d){: .btn .btn-green .float-right .py-6}

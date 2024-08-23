@@ -50,7 +50,7 @@ If you prefer using a graphical interface to download and extract the files, fol
 
 
 
-[Previous Page](/openmp-server-deploy/part-a){: .btn .btn-blue .float-left .mb-lg-4 .mt-6}
-[Next Page](/openmp-server-deploy/part-c){: .btn .btn-blue .float-right .mb-lg-4 .mt-6}
-
-
+[Previous Page](/openmp-server-deploy/part-a){: .btn .btn-blue .float-left .py-6}
+[Next Page](/openmp-server-deploy/part-c){: .btn .btn-green .float-right .py-6}
+<br>
+<br>

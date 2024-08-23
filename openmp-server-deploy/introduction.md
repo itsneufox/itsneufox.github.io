@@ -41,7 +41,5 @@ Ready to get started? Head over to the next section to begin the installation pr
 
 
 
-[Previous Page](/server-deploy/){: .btn .btn-blue .float-left .mb-lg-4 .mt-6}
-[Next Page](/openmp-server-deploy/part-a){: .btn .btn-blue .float-right .mb-lg-4 .mt-6}
-
-
+[Previous Page](/server-deploy/){: .btn .btn-blue .float-left .py-6}
+[Next Page](/openmp-server-deploy/part-a){: .btn .btn-green .float-right .py-6}
