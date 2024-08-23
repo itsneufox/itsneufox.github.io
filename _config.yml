@@ -3,6 +3,10 @@ title: itsneufox
 description: My personal website
 theme: just-the-docs
 
+assets:
+  css:
+    - /assets/css/sidebar.css
+
 # URL settings
 url: "https://itsneufox.github.io"
 

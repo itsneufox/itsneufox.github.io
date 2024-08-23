@@ -45,6 +45,6 @@ Ready to get started? Head over to the next section to begin the installation pr
 
 
 
-[Previous: Guide Homepage](/server-deploy/){: .btn .btn-blue .mr-4 } 
+[Previous: Guide Homepage](/server-deploy/){: .btn .btn-blue .mr-4 }
 [Next: Connect, Update, and Create User](/openmp-server-deploy/part-a){: .btn .btn-blue .mr-4}
 

@@ -94,4 +94,4 @@ If you need to stop the server, you'll use the PID that was given to you when yo
 
 
 [Previous: Download and Install the Server Files](/openmp-server-deploy/part-b){: .btn .btn-blue .mr-4 }
-[Next: Part D - Uploading Your Own Gamemode and Files](/openmp-server-deploy/part-d){: .btn .btn-blue .mr-4 }
+[Next: Uploading Your Own Gamemode and Files](/openmp-server-deploy/part-d){: .btn .btn-blue .mr-4 }

@@ -50,5 +50,5 @@ If you prefer using a graphical interface to download and extract the files, fol
 
 
 [Previous: Connect, Update, and Create User](/openmp-server-deploy/part-a){: .btn .btn-blue .mr-4 }
-[Next: Part C - Finishing Up and Starting the Server](/openmp-server-deploy/part-c){: .btn .btn-blue .mr-4 }
+[Next: Finishing Up and Starting the Server](/openmp-server-deploy/part-c){: .btn .btn-blue .mr-4 }
 
