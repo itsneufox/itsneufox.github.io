@@ -64,7 +64,7 @@ chmod 775 /home/MyUserName
 
 
 
-[Previous Page](/openmp-server-deploy/introduction){: .btn .btn-blue .float-left .py-6}
-[Next Page](/openmp-server-deploy/part-b){: .btn .btn-green .float-right .py-6}
+[Previous Page](/openmp-server-deploy/introduction){: .btn .btn-blue .float-left}
+[Next Page](/openmp-server-deploy/part-b){: .btn .btn-green .float-right}
 <br>
 <br>
