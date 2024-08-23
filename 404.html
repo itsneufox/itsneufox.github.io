@@ -1,0 +1,45 @@
+---
+layout: default
+title: 404
+permalink: /404
+nav_exclude: true
+search_exclude: true
+---
+
+<style>
+  .center {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .emoji {
+    font-size: 100px;
+  }
+  .btn-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .btn-home:hover {
+    background-color: #0056b3;
+  }
+  .couch-img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+</style>
+
+<div class="center">
+  <img src="{{ '/assets/images/couch.png' | relative_url }}" alt="Looking under the couch" class="couch-img">
+  <h1>Oops! Page not found.</h1>
+  <p>We're sorry, but we couldn't find what you were looking for.</p>
+  <p>Maybe try looking under the couch?</p>
+  <a href="{{ '/' | relative_url }}" class="btn-home">Go Back Home</a>
+  <p style="margin-top: 20px;">Or, try using the navigation {% if site.search_enabled != false %}or search {% endif %} to find what you're looking for.</p>
+</div>
