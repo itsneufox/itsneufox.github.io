@@ -7,7 +7,7 @@ nav_order: 5
 
 # Uploading Your Own Gamemode and Files
 
-Once your server is up and running, the next step is to upload your own gamemode and any necessary files. This section will guide you through transferring files to your server and highlight important considerations for Linux compatibility.
+Once your server is up and running, the next step is to upload your own gamemode and any necessary files.
 
 ## Transferring Files to Your Server 
 
@@ -17,6 +17,7 @@ To transfer your gamemode and other files from your local machine to your Linux 
 > **Important Reminder**
 >
 > Linux servers cannot read `.dll` files, which are commonly used in Windows environments. Make sure to download and upload the `.so` counterparts for any plugins or libraries that your gamemode requires.
+>
 > Ensure that your gamemode and related files are placed in the correct directories on the server to avoid any configuration issues.
 
 ## Getting Help

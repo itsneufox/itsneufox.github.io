@@ -41,14 +41,14 @@ For security reasons, it's best practice to avoid running your server as the roo
     sudo adduser MyUserName
     ```
     {: .highlight }
-    > Replace `MyUserName` with a username of your choice. 
+    Replace `MyUserName` with a username of your choice. 
 
 2. *Optional:* Grant the new user `sudo` privileges so they can perform administrative tasks if needed:
     ```bash
     sudo usermod -aG sudo MyUserName
     ```
     {: .highlight }
-    > Granting sudo access is optional, but it can be useful if the new user needs to perform system-level tasks in the future.
+    Granting sudo access is optional, but it can be useful if the new user needs to perform system-level tasks in the future.
 
 ## Step 4 - Adjust Permissions for the New User
 

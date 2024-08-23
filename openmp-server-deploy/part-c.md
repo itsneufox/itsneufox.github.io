@@ -71,8 +71,9 @@ If you need to stop the server, you'll use the PID that was given to you when yo
     ```bash
     sudo kill MyNumberHere
     ```
+
     {: .highlight }
-    > **Replace `MyNumberHere` with the actual PID.**
+    **Replace `MyNumberHere` with the actual PID.**
 
 2. If you forgot to write down the PID, you can find it using the `top` command:
     ```bash
