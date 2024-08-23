@@ -1,0 +1,14 @@
+/* Apply background image to the sidebar */
+.side-bar {
+  @include mq(lg) {
+    width: calc((70% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+  }
+}
+
+.side-bar {
+  background-image: url('/assets/images/sidebar-background.png');
+  background-size: cover; /* Make the image cover the entire sidebar */
+  background-repeat: no-repeat; /* Prevent repeating */
+  background-position: center; /* Center the image */
+  color: white; /* Optional: Adjust the text color to suit the background */
+}
