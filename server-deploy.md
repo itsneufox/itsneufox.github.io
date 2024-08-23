@@ -3,7 +3,7 @@ layout: default
 title: open.mp Server Deploy
 nav_order: 2
 has_children: true
-toc: false
+has_toc: false
 ---
 
 # Easy open.mp Server Installation
