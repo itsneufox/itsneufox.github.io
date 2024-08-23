@@ -26,4 +26,6 @@ Welcome to the **open.mp Server Installation Guide**! This guide will walk you t
 
 Continue through the guide by following the buttons on the bottom or using the table of contents above.
 
-<div align="center">[Next: Connect, Update, and Create User](/openmp-server-deploy/introduction){: .btn .btn-blue .mr-4}</div>
+<div align="center">
+[Next: Connect, Update, and Create User](/openmp-server-deploy/introduction){: .btn .btn-blue .mr-4}
+</div>

@@ -44,4 +44,7 @@ By the end of this guide, you’ll have your open.mp server up and running, read
 Ready to get started? Head over to the next section to begin the installation process!
 
 
-<div align="center">[Previous: Guide Homepage](/server-deploy/){: .btn .btn-blue .mr-4 }[Next: Connect, Update, and Create User](/openmp-server-deploy/part-a){: .btn .btn-blue .mr-4}</div>
+<div align="center">
+[Previous: Guide Homepage](/server-deploy/){: .btn .btn-blue .mr-4 } 
+[Next: Connect, Update, and Create User](/openmp-server-deploy/part-a){: .btn .btn-blue .mr-4}
+</div>
