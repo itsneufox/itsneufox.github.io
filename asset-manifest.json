@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d26ead8d.css",
+    "main.js": "/static/js/main.f3d4bb98.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/map.webp": "/static/media/map.3b817a5eed28b345eb91.webp",
+    "static/media/cracked.png": "/static/media/cracked.ae10b7897f4bcfeadad4.png",
+    "static/media/cracked.mp3": "/static/media/cracked.5243f5dbc4f363a797e4.mp3",
+    "index.html": "/index.html",
+    "main.d26ead8d.css.map": "/static/css/main.d26ead8d.css.map",
+    "main.f3d4bb98.js.map": "/static/js/main.f3d4bb98.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d26ead8d.css",
+    "static/js/main.f3d4bb98.js"
+  ]
+}
