@@ -1,0 +1,92 @@
+.block {
+    background-color: var(--dark-secondary);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.block.hovered {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+    border-color: rgba(157, 78, 221, 0.3);
+}
+
+.block-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--purple-accent);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+}
+
+.block-title {
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-description {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+    padding: 0 0.5rem;
+}
+
+@keyframes clickBounceHovered {
+    0% { transform: translateY(-10px) scale(1); }
+    50% { transform: translateY(-10px) scale(0.95); }
+    100% { transform: translateY(-10px) scale(1); }
+  }
+  
+  @keyframes clickBounce {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+  
+  .block.clicked {
+    animation: clickBounce 0.3s ease;
+  }
+  
+  .block.hovered.clicked {
+    animation: clickBounceHovered 0.3s ease;
+  }
