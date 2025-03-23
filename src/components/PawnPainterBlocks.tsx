@@ -1,37 +1,31 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import './Block.css';
 
-interface BlockProps {
+interface PawnPainterBlocksProps {
   title: string;
   description: string;
   icon: string;
-  link: string;
+  linkId: string;
   onClick?: () => void;
 }
 
-const Block: React.FC<BlockProps> = ({ title, description, icon, link, onClick }) => {
+const PawnPainterBlocks: React.FC<PawnPainterBlocksProps> = ({ title, description, icon, linkId, onClick }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
-  const navigate = useNavigate();
-  
+
   const handleClick = () => {
     setIsClicked(true);
-    
+
     if (onClick) {
       onClick();
       return;
     }
-    
-    if (link.startsWith('/')) {
-      navigate(link);
-    } else if (link.startsWith('#')) {
-      document.getElementById(link.substring(1))?.scrollIntoView({ behavior: 'smooth' });
-    } else {
-      window.open(link, '_blank', 'noopener,noreferrer');
+
+    if (linkId.startsWith('#')) {
+      document.getElementById(linkId.substring(1))?.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  
+
   useEffect(() => {
     if (isClicked) {
       const timer = setTimeout(() => {
@@ -40,10 +34,14 @@ const Block: React.FC<BlockProps> = ({ title, description, icon, link, onClick }
       return () => clearTimeout(timer);
     }
   }, [isClicked]);
-  
+
+  let className = 'block';
+  if (isHovered) className += ' hovered';
+  if (isClicked) className += ' clicked';
+
   return (
-    <div 
-      className={`block ${isHovered ? 'hovered' : ''} ${isClicked ? 'clicked' : ''}`}
+    <div
+      className={className}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       onClick={handleClick}
@@ -57,4 +55,4 @@ const Block: React.FC<BlockProps> = ({ title, description, icon, link, onClick }
   );
 };
 
-export default Block;
+export default PawnPainterBlocks;
