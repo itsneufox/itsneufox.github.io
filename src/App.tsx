@@ -11,42 +11,42 @@ function App() {
     <ThemeProvider>
       <HashRouter>
         <Routes>
-          <Route path="/" element={
+          <Route path="" element={
             <div className="app">
               <div className="blocks-container">
                 <LogoBlock />
-                <Block 
-                  title="About" 
+                <Block
+                  title="About"
                   description="Learn about my profile and work"
                   icon="user"
                   link="https://github.com/itsneufox"
                 />
-                <Block 
-                  title="Work" 
+                <Block
+                  title="Work"
                   description="Browse my projects and code"
                   icon="briefcase"
                   link="https://github.com/itsneufox?tab=repositories"
                 />
-                <Block 
-                  title="LongWayDrivers" 
+                <Block
+                  title="LongWayDrivers"
                   description="Trucking server for open.mp"
                   icon="truck"
                   link="https://github.com/longwaydrivers"
                 />
-                <Block 
-                  title="PAWN Painter" 
+                <Block
+                  title="PAWN Painter"
                   description="Color picker tool for PAWN in VS Code"
                   icon="palette"
-                  link="/pawnpainter"
+                  link="#/pawnpainter"
                 />
-                <Block 
-                  title="GameText Plus" 
+                <Block
+                  title="GameText Plus"
                   description="Improved GameText system for open.mp"
                   icon="text"
                   link="https://github.com/itsneufox/GameText-Plus"
                 />
-                <Block 
-                  title="CamEditor" 
+                <Block
+                  title="CamEditor"
                   description="Create smooth camera movements in-game"
                   icon="camera"
                   link="https://github.com/itsneufox/CamEditor-open.mp"
@@ -55,7 +55,7 @@ function App() {
               </div>
             </div>
           } />
-          <Route path="/pawnpainter" element={<PawnPainter />} />
+          <Route path="pawnpainter" element={<PawnPainter />} />
         </Routes>
       </HashRouter>
     </ThemeProvider>
