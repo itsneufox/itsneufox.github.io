@@ -174,7 +174,7 @@ SendClientMessage(playerid, -1, "`}<span style={{ color: '#C4A657' }}>~y~Warning
           <>
             <h3 className="content-subtitle">Inline Colour Format</h3>
             <p className="content-text">
-              Preview embedded {"{RRGGBB}"} colour codes in your strings - a format commonly used in SA-MP/open.mp servers.
+              Preview embedded {"{RRGGBB}"} colour codes in your strings - a format commonly used in open.mp servers.
             </p>
             <div className="code-example">
               <pre>
@@ -365,7 +365,7 @@ SendClientMessage(playerid, -1, "`}<span style={{ textDecoration: 'underline', t
 
         <PawnPainterBlocks
           title="GameText"
-          description="Preview SA-MP colour codes in strings"
+          description="Preview open.mp colour codes in strings"
           icon="text"
           linkId="gameText"
           onClick={() => handleBlockClick('gameText')}
