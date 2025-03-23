@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Block from './components/Block';
 import LogoBlock from './components/LogoBlock';
@@ -9,7 +9,7 @@ import { ThemeProvider } from './context/ThemeContext';
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={
             <div className="app">
@@ -57,7 +57,7 @@ function App() {
           } />
           <Route path="/pawnpainter" element={<PawnPainter />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 }
