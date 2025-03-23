@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './PawnPainter.css';
 import Footer from './Footer';
-import PawnPainterBlocks from './PawnPainterBlocks'; // Import the new component
+import PawnPainterBlocks from './PawnPainterBlocks';
 import { useTheme } from '../context/ThemeContext';
 import crackSound from '../assets/cracked.mp3';
 
@@ -348,7 +348,7 @@ SendClientMessage(playerid, -1, "`}<span style={{ textDecoration: 'underline', t
                 <div className={`greeting ${isAnimating ? 'visible' : 'hidden'}`}>
                   {greetings[currentGreeting]}
                 </div>
-                <h1 className="painter-logo-title">I'm PAWN<span className="rainbow-text">Painter</span>🎨</h1>
+                <h1 className="painter-logo-title">I'm PAWN <span className="rainbow-text">Painter</span></h1>
               </div>
             </div>
           </div>
@@ -389,7 +389,7 @@ SendClientMessage(playerid, -1, "`}<span style={{ textDecoration: 'underline', t
 
         <PawnPainterBlocks
           title="Custom Styles"
-          description="Choose your preferred highlight style"
+          description="Choose your preferred style"
           icon="gear"
           linkId="styles"
           onClick={() => handleBlockClick('styles')}
