@@ -24,7 +24,8 @@ const Block: React.FC<BlockProps> = ({ title, description, icon, link, onClick }
     }
     
     if (link.startsWith('/')) {
-      navigate(link);
+      console.log("Attempting to navigate to:", link.substring(1));
+      navigate(link.substring(1));
     } else if (link.startsWith('#')) {
       document.getElementById(link.substring(1))?.scrollIntoView({ behavior: 'smooth' });
     } else {
