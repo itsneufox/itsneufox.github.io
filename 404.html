@@ -8,58 +8,290 @@
   <meta name="description" content="Page not found" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <title>404 - Page Not Found | itsneufox</title>
+  <title>404 - Level Not Found | itsneufox</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'JetBrains Mono', monospace;
+      font-family: 'Press Start 2P', cursive;
       background-color: #121212;
+      margin: 0;
+      overflow: hidden;
+      height: 100vh;
       color: #ffffff;
+    }
+    
+    .game-container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
-      height: 100vh;
-      margin: 0;
+      align-items: center;
+    }
+    
+    .stars {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    
+    .star {
+      position: absolute;
+      background-color: white;
+      border-radius: 50%;
+      animation: twinkle linear infinite;
+    }
+    
+    @keyframes twinkle {
+      0% { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    
+    .fox {
+      width: 150px;
+      height: 150px;
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="%23ff7700" d="M50 20 L70 40 L70 70 L30 70 L30 40 Z"/><path fill="%23ffffff" d="M40 45 L45 45 L45 50 L40 50 Z M55 45 L60 45 L60 50 L55 50 Z"/><path fill="%23000000" d="M35 60 L65 60 L65 65 L35 65 Z"/></svg>');
+      background-size: contain;
+      background-repeat: no-repeat;
+      animation: float 3s ease-in-out infinite;
+      margin-bottom: 30px;
+      transform-origin: center;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    
+    .fox:hover {
+      transform: scale(1.2) rotate(5deg);
+    }
+    
+    .fox:active {
+      transform: scale(0.9);
+    }
+    
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+    
+    .glitch-text {
+      font-size: 5rem;
+      position: relative;
+      color: #ff7700;
+      text-shadow: 0 0 10px #ff7700;
+      margin-bottom: 20px;
+      animation: glitch 1s linear infinite;
+    }
+    
+    @keyframes glitch {
+      2%, 64% { transform: translate(2px,0) skew(0deg); }
+      4%, 60% { transform: translate(-2px,0) skew(0deg); }
+      62% { transform: translate(0,0) skew(5deg); }
+    }
+    
+    .glitch-text:before,
+    .glitch-text:after {
+      content: '404';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .glitch-text:before {
+      color: #00ffff;
+      z-index: -1;
+      animation: glitch 0.5s linear infinite;
+      clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+      transform: translate(-2px, -2px);
+    }
+    
+    .glitch-text:after {
+      color: #ff00ff;
+      z-index: -2;
+      animation: glitch 0.3s linear infinite;
+      clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+      transform: translate(2px, 2px);
+    }
+    
+    .message {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
       text-align: center;
-    }
-    .container {
-      background-color: #1e1e24;
-      border-radius: 12px;
-      padding: 2rem;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      max-width: 500px;
-    }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      color: #9d4edd;
-    }
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
       color: #b0b0b0;
+      max-width: 80%;
     }
-    a {
-      color: #9d4edd;
-      text-decoration: none;
-      font-weight: bold;
-      border: 1px solid #9d4edd;
-      padding: 0.5rem 1rem;
-      border-radius: 8px;
-      transition: all 0.3s ease;
+    
+    .button {
+      background-color: #ff7700;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1rem;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s;
+      z-index: 1;
+      box-shadow: 0 0 10px #ff7700;
     }
-    a:hover {
-      background-color: #9d4edd;
-      color: #ffffff;
+    
+    .button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #ff7700;
+    }
+    
+    .button:active {
+      transform: scale(0.95);
+    }
+    
+    .button:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: 0.5s;
+      z-index: -1;
+    }
+    
+    .button:hover:before {
+      left: 100%;
+    }
+    
+    .score {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 1rem;
+    }
+    
+    .life {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 1rem;
+    }
+    
+    #game-over {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ff0000;
+      font-size: 3rem;
+      text-shadow: 0 0 10px #ff0000;
+      animation: pulse 1s infinite;
+    }
+    
+    @keyframes pulse {
+      0% { transform: translate(-50%, -50%) scale(1); }
+      50% { transform: translate(-50%, -50%) scale(1.2); }
+      100% { transform: translate(-50%, -50%) scale(1); }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>404</h1>
-    <p>Oops! The page you're looking for doesn't exist.</p>
-    <a href="/">Return Home</a>
+  <div class="game-container">
+    <div class="stars" id="stars"></div>
+    <div class="life">LIVES: <span id="lives">3</span></div>
+    <div class="score">SCORE: <span id="score">0</span></div>
+    <div class="fox" id="fox"></div>
+    <h1 class="glitch-text">404</h1>
+    <p class="message">OH NO! THE LEVEL YOU'RE LOOKING FOR HAS BEEN EATEN BY THE BUG MONSTER!</p>
+    <button class="button" onclick="location.href='/'">RETURN TO HUB WORLD</button>
+    <div id="game-over">GAME OVER</div>
   </div>
+
+  <script>
+    // Create stars
+    function createStars() {
+      const starsContainer = document.getElementById('stars');
+      const numberOfStars = 100;
+      
+      for (let i = 0; i < numberOfStars; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        
+        // Random star properties
+        const size = Math.random() * 3 + 1 + 'px';
+        const x = Math.random() * 100 + '%';
+        const y = Math.random() * 100 + '%';
+        const duration = Math.random() * 5 + 3 + 's';
+        const delay = Math.random() * 5 + 's';
+        
+        star.style.width = size;
+        star.style.height = size;
+        star.style.left = x;
+        star.style.top = y;
+        star.style.animationDuration = duration;
+        star.style.animationDelay = delay;
+        
+        starsContainer.appendChild(star);
+      }
+    }
+    
+    // Fox click game
+    let score = 0;
+    let lives = 3;
+    const fox = document.getElementById('fox');
+    const scoreDisplay = document.getElementById('score');
+    const livesDisplay = document.getElementById('lives');
+    const gameOver = document.getElementById('game-over');
+    
+    fox.addEventListener('click', () => {
+      score += 10;
+      scoreDisplay.textContent = score;
+      
+      // Make fox jump to a new position
+      const maxX = window.innerWidth - 150;
+      const maxY = window.innerHeight - 150;
+      const randomX = Math.random() * maxX;
+      const randomY = Math.random() * maxY;
+      
+      fox.style.position = 'absolute';
+      fox.style.left = randomX + 'px';
+      fox.style.top = randomY + 'px';
+      
+      // Play sound
+      const audio = new Audio();
+      audio.src = 'data:audio/wav;base64,UklGRl9vT19XQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YU9vT18A';
+      audio.play().catch(e => {});
+    });
+    
+    // Lose life if fox not clicked within 5 seconds
+    let loseLifeTimeout;
+    
+    function startLoseLifeTimer() {
+      clearTimeout(loseLifeTimeout);
+      loseLifeTimeout = setTimeout(() => {
+        lives--;
+        livesDisplay.textContent = lives;
+        
+        if (lives <= 0) {
+          gameOver.style.display = 'block';
+          fox.style.display = 'none';
+        } else {
+          startLoseLifeTimer();
+        }
+      }, 5000);
+    }
+    
+    // Initialize
+    document.addEventListener('DOMContentLoaded', () => {
+      createStars();
+      startLoseLifeTimer();
+    });
+  </script>
 </body>
 </html>
