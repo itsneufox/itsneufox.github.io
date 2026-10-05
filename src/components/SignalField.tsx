@@ -27,8 +27,6 @@ export default function SignalField() {
     let lastLaunch = -10000;
     let corners: number[] = [];
     let lastCorner = 0;
-    let visits = '';
-    let lastVisit = 0;
     let held = 0;
     let anchorX = 0;
     let direction = 0;
@@ -81,18 +79,6 @@ export default function SignalField() {
       }
     };
     const up = () => { window.clearTimeout(held); };
-    const over = (event: Event) => {
-      const target = event.target instanceof Element ? event.target.closest('.project-row') : null;
-      if (!target) return;
-      if (event instanceof MouseEvent && event.relatedTarget instanceof Node && target.contains(event.relatedTarget)) return;
-      const rows = Array.from(document.querySelectorAll('.project-row'));
-      const index = rows.indexOf(target);
-      const now = performance.now();
-      if (now - lastVisit > 4000) visits = '';
-      lastVisit = now;
-      if (!visits.endsWith(String(index))) visits = (visits + index).slice(-4);
-      if (hash(visits) === 1202459705) { visits = ''; launch(25); }
-    };
     const double = (event: MouseEvent) => {
       if (event.target instanceof Element && event.target.closest('footer') && !event.target.closest('a, button')) launch(27);
     };
@@ -124,8 +110,6 @@ export default function SignalField() {
     window.addEventListener('pointerup', up);
     window.addEventListener('pointercancel', up);
     window.addEventListener('pointermove', move, { passive: true });
-    window.addEventListener('pointerover', over);
-    window.addEventListener('focusin', over);
     window.addEventListener('dblclick', double);
     window.addEventListener('scroll', activity, { passive: true });
     window.addEventListener('site:resolved', solve);
@@ -137,8 +121,6 @@ export default function SignalField() {
       window.removeEventListener('pointerup', up);
       window.removeEventListener('pointercancel', up);
       window.removeEventListener('pointermove', move);
-      window.removeEventListener('pointerover', over);
-      window.removeEventListener('focusin', over);
       window.removeEventListener('dblclick', double);
       window.removeEventListener('scroll', activity);
       window.removeEventListener('site:resolved', solve);
@@ -173,7 +155,6 @@ export default function SignalField() {
       {active === 21 && <div className="sf-portal">{[0, 1, 2, 3, 4].map(i => <i key={i} style={{ '--i': i } as CSSProperties} />)}</div>}
       {active === 22 && <div className="sf-aurora"><i /><i /><i /></div>}
       {active === 24 && <div className="sf-map"><span>N</span><b>⌖</b><svg viewBox="0 0 240 180"><path d="M20 20H220V160H20Z M20 20L120 90L220 160 M220 20L120 90L20 160" /></svg><small>× marks absolutely nothing</small></div>}
-      {active === 25 && <div className="sf-timeline"><p>2026 · Discord Bridge</p><p>2024 · GameText Plus</p><p>2024 · PAWN Painter</p><p>↳ LongWayDrivers · where it began</p></div>}
       {active === 26 && <div className="sf-id"><span>PERSONNEL FILE</span><strong>itsneufox</strong><p>Species: developer<br />Fuel: curiosity<br />Status: still compiling</p><b>▥ ▥ ▥ ▥ ▥</b></div>}
       {active === 27 && <div className="sf-receipt"><b>INTERNET GIFT SHOP</b><hr /><p>1 visit <span>€0.00</span></p><p>4 projects <span>€0.00</span></p><p>1 hidden receipt <span>priceless</span></p><hr /><p>TOTAL <span>one smile</span></p><small>No cookies were harmed.</small></div>}
       {active === 30 && <svg className="sf-constellation" viewBox="0 0 400 300"><path d="M50 200L120 50L200 160L320 70L350 240L200 160L50 200" />{[[50, 200], [120, 50], [200, 160], [320, 70], [350, 240]].map(([cx, cy], i) => <circle key={i} cx={cx} cy={cy} r="5" />)}</svg>}
@@ -181,7 +162,7 @@ export default function SignalField() {
     </div>
     {active === 20 && <div className="sf-targets" role="group" aria-label="Catch five bugs">{[0, 1, 2, 3, 4].filter(index => !hits.includes(index)).map(index => <button key={index} className="sf-target" style={{ '--i': index, left: `${12 + index * 17}%`, top: `${24 + (index % 3) * 16}%` } as CSSProperties} aria-label={`Catch bug ${index + 1}`} onClick={() => setHits(previous => [...previous, index])}>✳</button>)}</div>}
     <aside className="sf-caption">
-      <div role="status"><small>{String(found).padStart(2, '0')} / {records.length} discoveries</small><strong>{active === 20 && hits.length === 5 ? 'All bugs caught. Ship it.' : decode(title)}</strong><p>{active === 20 ? `${hits.length} / 5 caught · ${decode(caption)}` : decode(caption)}</p></div>
+      <div role="status"><small>{String(found).padStart(2, '0')} / {records.length - 1} discoveries</small><strong>{active === 20 && hits.length === 5 ? 'All bugs caught. Ship it.' : decode(title)}</strong><p>{active === 20 ? `${hits.length} / 5 caught · ${decode(caption)}` : decode(caption)}</p></div>
       <button type="button" onClick={dismiss} aria-label="Dismiss effect">×</button>
     </aside>
   </div>, document.body);

@@ -45,11 +45,6 @@ it('recognizes ordered corner taps and rejects incorrect order', () => {
   expect(document.querySelector('.sf')).not.toBeInTheDocument();
   corners(); expect(document.querySelector('.sf-24')).toBeInTheDocument();
 });
-it('recognizes reverse project visits', () => {
-  render(<><Signals />{[0,1,2,3].map(i => <a className="project-row" key={i} href="#">Row {i}</a>)}</>);
-  [3,2,1,0].forEach(i => fireEvent.focusIn(screen.getByText(`Row ${i}`)));
-  expect(document.querySelector('.sf-25')).toBeInTheDocument();
-});
 it('requires a held name and cancels a short press', () => {
   render(<><Signals /><span className="profile-name">Name</span></>);
   pointer('pointerdown', 200, 200, screen.getByText('Name')); advance(1000); pointer('pointerup'); advance(500);
@@ -86,7 +81,7 @@ it('requires twelve distinct discoveries AND puzzle success for scene 31', () =>
 it('counts discoveries once and enforces cooldown', () => {
   render(<Signals />); type(0); fireEvent.keyDown(window, {key:'Escape'}); type(1);
   expect(document.querySelector('.sf')).not.toBeInTheDocument();
-  advance(2000); type(0); expect(screen.getByText('01 / 32 discoveries')).toBeInTheDocument();
+  advance(2000); type(0); expect(screen.getByText('01 / 31 discoveries')).toBeInTheDocument();
 });
 it('catches all five bugs and resets the game on replay', () => {
   render(<Signals />); type(20);
